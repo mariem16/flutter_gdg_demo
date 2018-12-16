@@ -1,0 +1,4 @@
+#Thu Dec 06 18:09:19 EET 2018
+base.0=/Users/mariembenrejeb/Documents/StudioProject/gdg_demo/build/app/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
