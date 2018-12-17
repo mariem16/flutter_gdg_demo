@@ -85,9 +85,13 @@ class PikaItem extends StatelessWidget {
                 splashColor: Colors.blue[900],
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => new detail(p))),
+
+                //Scaffold.of(context).showSnackBar(SnackBar(
+                //content: Text('Tap'),
+                //));
+
                 child: Padding(
-                  padding:
-                      EdgeInsets.symmetric(vertical: 10.0),
+                  padding: EdgeInsets.symmetric(vertical: 10.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: <Widget>[
